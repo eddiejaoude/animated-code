@@ -21,6 +21,23 @@ npm install
 npm run dev
 ```
 
+## Test it
+
+The Playwright end-to-end suite covers critical user journeys in Chromium.
+Install the browser once after installing the project dependencies, then run the suite:
+
+```sh
+npm ci
+npx playwright install chromium
+npm test
+```
+
+Use Playwright UI mode when developing or debugging tests:
+
+```sh
+npm run test:e2e:ui
+```
+
 ## What's inside
 
 - **Code input** (left panel): editable snippet, 9-language selector with per-language
