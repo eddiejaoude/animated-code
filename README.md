@@ -21,6 +21,16 @@ npm install
 npm run dev
 ```
 
+## Checks
+
+Before submitting changes, run:
+
+```sh
+npm run lint
+npm test
+npm run build
+```
+
 ## What's inside
 
 - **Code input** (left panel): editable snippet, 9-language selector with per-language
